@@ -1,0 +1,48 @@
+body{
+	background-color: gray;
+
+}
+#parent{
+	background-color:#F2F3F4  ;
+	margin:2%; 
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+	height: 80%;
+}
+.child1{
+	background-color:#262243 ;
+	color:#C0C0C0;
+	margin:2%; 
+	text-align: center;
+	padding: 4%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px ;
+	width: 15%;
+	height: 95%;
+	
+}
+.child2{
+	background-color:#262243 ;
+	color:#C0C0C0;
+	margin:2%; 
+	padding: 4%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px ;
+	width: 85%;
+	height: 90%;
+	
+}
+
+.child1>img{
+	height:30%; 
+	width :50%;
+	margin-top: 4%;
+
+}
+.child1:hover{
+	box-shadow: 4px 4px 4px 4px #DAF7A6 ;
+}
+.child2:hover{
+	box-shadow: 4px 4px 4px 4px  #DAF7A6;
+}

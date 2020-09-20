@@ -1,23 +1,25 @@
+
 /*these are thes styles for desktop,laptops*/
 body{
 	background-color: #24A395;
 }
 #parent{
 	background-color:#1A2E88 ;
-	margin:3%; 
+	margin:5%; 
 	display: flex;
 	justify-content: space-around;
 	border-radius: 5%;
-	height: 85%;
+	height: 80%;
 }
 .child{
 	background-color:skyblue;
-	margin:2%; 
+	margin:4%; 
 	text-align: center;
-	padding: 2%;
+	padding: 4%;
 	border-radius: 5%;
 	box-shadow: 4px 4px 4px 4px ;
 	width: 20%;
+	height: 80%;
 	
 }
 .child>img{
@@ -27,7 +29,7 @@ body{
 
 }
 .child:hover{
-	box-shadow: 4px 4px 4px 4px ;
+	box-shadow: 4px 4px 4px 4px red;
 	background-color: violet;
 
 }
@@ -38,7 +40,7 @@ body{
 	margin:1%;
 }
 .child{
-	width: 84%;
+	width: 95%;
 	margin: 3%;	
 }
 p{
@@ -51,7 +53,14 @@ p{
 /*tab view*/
 @media screen and (min-width: 481px) and (max-width: 720px){
 	#parent{
-	flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	p{
+		font-size: 90%;
+	}
+	.child{
+		width:30%;
+	}
 	
 }
-}
+
