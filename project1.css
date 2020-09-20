@@ -1,0 +1,57 @@
+/*these are thes styles for desktop,laptops*/
+body{
+	background-color: #24A395;
+}
+#parent{
+	background-color:#1A2E88 ;
+	margin:3%; 
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+	height: 85%;
+}
+.child{
+	background-color:skyblue;
+	margin:2%; 
+	text-align: center;
+	padding: 2%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px ;
+	width: 20%;
+	
+}
+.child>img{
+	height:30%; 
+	width :50%;
+	margin-top: 4%;
+
+}
+.child:hover{
+	box-shadow: 4px 4px 4px 4px ;
+	background-color: violet;
+
+}
+/*moblie view*/
+@media  screen and (min-width: 320px) and (max-width: 480px){
+#parent{
+	display: inline-block;
+	margin:1%;
+}
+.child{
+	width: 84%;
+	margin: 3%;	
+}
+p{
+	font-size: 25px;
+}
+.child>img{
+	height:50%;
+}
+}
+/*tab view*/
+@media screen and (min-width: 481px) and (max-width: 720px){
+	#parent{
+	flex-wrap: wrap;
+	
+}
+}
